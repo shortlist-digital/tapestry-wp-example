@@ -1,10 +1,12 @@
 {
   "name": "tapestry-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Tapestry app with minimal config",
   "main": "tapestry.js",
   "scripts": {
-    "start": "tapestry"
+    "start": "tapestry",
+    "build": "tapestry build",
+    "start:prod": "tapestry start"
   },
   "author": "Shortlist Studio",
   "license": "ISC",
