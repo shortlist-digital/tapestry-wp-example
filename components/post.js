@@ -1,23 +1,8 @@
 import React from 'react'
-import { css } from 'glamor'
+import { Link } from 'react-router'
 
-const title = css({
-  fontSize: '60px',
-  fontWeight: 'bold',
-  marginBottom: '24px'
-})
-const sell = css({
-  fontSize: '24px'
-})
-
-const Post = props =>
-  <section>
-    <h1 className={title}>
-      {props.short_headline || props.title.rendered}
-    </h1>
-    <p className={sell}>
-      {props.acf.sell}
-    </p>
-  </section>
-
-export default Post
+export default () =>
+  <div>
+    <Link to="/">Homepage</Link>
+    <h1>Post</h1>
+  </div>
