@@ -10,6 +10,7 @@
   "author": "Shortlist Studio",
   "license": "ISC",
   "dependencies": {
-    "tapestry-wp": "^1.6.0"
+    "tapestry-wp": "^1.7.3",
+    "webpack-merge": "^4.0.0"
   }
 }
